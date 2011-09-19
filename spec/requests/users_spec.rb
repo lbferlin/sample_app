@@ -19,7 +19,7 @@ describe "Users" do
         end.should_not change(User, :count)
       end
     end
-      
+ end     
      describe "sign in/out" do
 
     describe "failure" do
